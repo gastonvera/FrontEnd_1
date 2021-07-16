@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(196, 196, 196);
+    color: rgb(0, 86, 119);
+}
+h2{
+    text-transform: uppercase;
+    color: rgb(0, 86, 119);
+    background: rgb(196, 196, 196);
+}
+h3 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+span {
+    font-weight: bold;
+}
+dt {
+    font-weight: bold;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.center {
+    margin: 0 auto;
+    width: 70%;
+  }
+.footer {
+    background: rgb(0, 86, 119);
+    margin: 0 auto;
+    width: 70%;
+}

@@ -1,0 +1,29 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;900&display=swap');
+
+body {
+    font-family: roboto;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
