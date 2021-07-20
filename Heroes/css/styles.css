@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+header h1 {
+    background-color: rgb(0, 102, 159);
+    color: black;
+    height: 101px;
+}
+main {
+    background-color: #fff;
+}
+footer {
+    background-color: rgb(0, 102, 159);
+    color:#fff;
+    height: 51px;
+}
+i {
+    position: absolute;
+    color: #CC2424;
+    top: 10px;
+    left: 15px;
+}
+.card {
+    text-align: center;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+    margin: 15px;;
+}
+.button {
+    background-color: #00669F;
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 269px;
+    left: 85px;
+}
+.button a {
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.card-batman {
+}
+.card-harley {
+}*/
+.card .card-img-batman {
+    background-image: url(../img/back-batman.png);
+    width: 300px;
+    height: 193px;
+}
+.card .card-img-harley {
+    background-image: url(../img/back-harley.png);
+    width: 300px;
+    height: 193px;
+}
+.card-text {
+    position: relative;
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+}
+.card-text img {
+    position: absolute;
+    left: 89px;
+    right: 89px;
+    top: -61px;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+}
+.card-text h2 {
+    position: absolute;
+    top: 80px;
+    left: 89px;
+}
+.card-text p {
+    position: absolute;
+    top: 120px;
+}
+.header-trucho {
+    background-color: #1CD1B0;
+    color: black;
+    height: 38px;
+}

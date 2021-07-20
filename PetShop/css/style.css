@@ -1,0 +1,29 @@
+.headersup {
+    background-color: black;
+}
+.headersup a {
+    color: white;
+}
+.headerinf {
+    background-color: #F0A83E;
+}
+.headerinf h1 {
+    display: inline;
+}
+.headerinf nav {
+    float: right;
+}
+.derecha {
+    float: right;
+}
+.logo {
+    display: inline-block;
+}
+.hero {
+    max-width: 100%;
+    width: 0 auto;
+    text-align: center;
+}
+.hero img {
+    max-width: 100%;
+}
