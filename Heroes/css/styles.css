@@ -1,27 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100@400@600&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
 header {
     position: sticky;
-    top: 0px;
-    width: 100%;
+    top:0;
+    z-index: 990;
+    display: flex;
+    align-items: center;
 }
 header h1 {
     background-color: rgb(0, 102, 159);
-    color: black;
-    height: 101px;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
 }
 main {
     background-color: #fff;
 }
 footer {
     background-color: rgb(0, 102, 159);
-    color:#fff;
-    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+footer h3 {
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    right: 2px;
+    font-size: 0.8rem;
+}
+footer p {
+    color: #fff;
+    padding: 10px;
+    font-size: 0.65rem;
 }
 i {
     position: absolute;
@@ -29,47 +48,67 @@ i {
     top: 10px;
     left: 15px;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .card {
     text-align: center;
+    margin: 15px;
     position: relative;
-    border-radius: 16px 16px 0px 0px;
-    margin: 15px;;
 }
 .button {
     background-color: #00669F;
     width: 130px;
     height: 50px;
+    border-radius: 20px;
     position: absolute;
     top: 269px;
     left: 85px;
 }
 .button a {
     color: #fff;
-}
-.container {
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/*.card-batman {
-}
-.card-harley {
-}*/
 .card .card-img-batman {
     background-image: url(../img/back-batman.png);
     width: 300px;
     height: 193px;
+    border-radius: 16px 16px 0px 0px;
 }
 .card .card-img-harley {
     background-image: url(../img/back-harley.png);
     width: 300px;
     height: 193px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card .card-img-Superman {
+    background-image: url(../img/superman-background.png);
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+}
+.card .card-img-MujerMaravilla{
+    background-image: url(../img/mujer-maravilla-background.png);
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
 }
 .card-text {
     position: relative;
     width: 300px;
     height: 336px;
     background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card-text img {
     position: absolute;
@@ -81,16 +120,36 @@ i {
     border-radius: 50%;
 }
 .card-text h2 {
-    position: absolute;
-    top: 80px;
-    left: 89px;
+    padding: 20px;
+    font-size: 1rem;
 }
 .card-text p {
-    position: absolute;
-    top: 120px;
+    width: 90%;
+    font-size: 0.7rem;
 }
 .header-trucho {
-    background-color: #1CD1B0;
+    background-color: #D1891C;
     color: black;
-    height: 38px;
+    display: flex;
+    align-items: center;
 }
+.header-trucho p {
+    padding: 5px;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }   
+}
+@media screen and (min-width: 1295px) {
+    .container {
+        flex-direction: unset;
+    }
+    footer h3 {
+        font-size: 1rem;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+}
+

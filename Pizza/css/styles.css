@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between ;
+}
+header h1 {
+    color: white;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li a{
+    color: white;
+    padding: 10px;
+}
+span {
+    color: white;
+}
+h2 {
+    color: #FC200C;
+}
+h4 {
+    color: white;
+}
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li {
+    padding: 5px;
+}
+footer ul li a {
+    color: white;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    display: flex;
+}
+.container {
+    display: flex;
+}
+.img-delivery {
+    background-image: url(../img/delivery.png);
+    width: 500px;
+    height: 350px;
+}
+.ranking-pizzas {
+    background-color: white;
+    width: 500px;
+    height: 350px;
+}
+.ranking-pizzas h2 {
+    text-align: center;
+}
+.caja-padre-ranking {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;  
+}
