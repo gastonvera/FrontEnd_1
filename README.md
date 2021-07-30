@@ -11,4 +11,5 @@ Here are deposited all the projects that I was generating throughout FrontEnd 1 
 - [PetShop](https://gastonvera.github.io/FrontEnd_1/PetShop/index.html)
 - [CVBatman](https://gastonvera.github.io/FrontEnd_1/CVBatman/index.html)
 - [CVPropio](https://gastonvera.github.io/FrontEnd_1/CVPropio/index.html)
+- [Heroes](https://gastonvera.github.io/FrontEnd_1/Heroes/index.html)
 
